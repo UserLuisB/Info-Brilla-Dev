@@ -1,4 +1,4 @@
-# Informacion Portal-Brilla ⚡
+# Informacion Franquicia-Brilla ⚡
 
 ## Descargas...
 ### Descarga KeyPass 🔐
@@ -97,5 +97,7 @@ Link de Descarga -> [SourceTree](https://www.sourcetreeapp.com)
 1. Abrir ***SourceTree***
 2. Ir al apartado para clonar repositorios remotos.
 3. Pegar la url copiada anteriormente.
-4. En caso de pedir credenciales poner las generadas anteriormente.
-5. Dar en el boton clonar, verificar haciendo un pull. 
+4. En caso de pedir credenciales poner las del ***keyPass***.
+   - Si esta opcion no funciona dar en la opcion generate git credencial
+     y copiar las credenciales.
+6. Dar en el boton clonar, verificar haciendo un pull. 
