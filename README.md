@@ -63,12 +63,10 @@ Link de Descarga -> [SourceTree](https://www.sourcetreeapp.com)
 1. Descargar el archivo -> [Untitled](https://drive.google.com/file/d/18fazv5sZ-TuYNOOOAd1T8vPaYoF0_H-D/view)
 2. Importar el archivo descargado en la VPN.
 3. Ingresar el correo y la contraseña que aparece en el KeyPass para la VPN.
+4. En caso de que no se conecte tener en cuenta la zona horaria del sistema.
    
 ### Configuracion de la base de datos (Sql Server Management Studio]
 
-*-- En Proceso --*
-
-### Configuracion de la base de datos (DBeaver)
 1. Crear conexion
    - Host-> ***sql-eastus2-001.privatelink.database.windows.net***
    - DataBaseName -> ***sql-portalbrilla-dev-promigas***
@@ -77,6 +75,18 @@ Link de Descarga -> [SourceTree](https://www.sourcetreeapp.com)
   
 2. Descargar el **Driver de SQL Server** si no lo tiene (Esto lo hara automaticamente DBeaver).
 3. Probar la conexion.
+
+### Configuracion de la base de datos (DBeaver)
+1. Crear conexion
+   - Host-> ***sql-eastus2-001.privatelink.database.windows.net***
+   - UserName -> ***Esta en el KeyPass.***
+   - Password -> ***Esta en el KeyPass.***
+
+2. En el aparatado de ocpiones
+   - Poner protocolo TCP/IP en Network protocol
+   - Habilitar la opcion Trust server certificate 
+4. Descargar el **Driver de SQL Server** si no lo tiene (Esto lo hara automaticamente DBeaver).
+5. Probar la conexion.
 
 ### Configuracion del Repositorio
 1. Crear una carpeta en documentos con el nombre brilla.
