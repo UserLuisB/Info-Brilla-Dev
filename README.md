@@ -85,16 +85,16 @@ Link de Descarga -> [SourceTree](https://www.sourcetreeapp.com)
 ---
  
 1. Ingresar a [EnlaceCSCa](https://dev.azure.com/EnlaceCSC/)
-2. Ingresar correo y contraseña que aprece en el KeyPass.
-3. Elegir el proyecto franquiciaBrilla.  
+2. Ingresar correo y contraseña que aprece en el ***KeyPass.***
+3. Elegir el proyecto ***franquiciaBrilla.***
 4. Ingresar al apartado de Repos.
-5. buscar la rama back-web-portal
+5. buscar la rama ***back-web-portal.***
 6. Dar click en clonar y copiar url.
 7. Dar click en generate git credencial.
 
 ---
 
-1. Abrir SourceTree . 
+1. Abrir ***SourceTree.***
 2. Ir al apartado para clonar repositorios remotos.
 3. Pegar la url copiada anteriormente.
 4. En caso de pedir credenciales poner las generadas anteriormente.
