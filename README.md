@@ -56,7 +56,7 @@ Link de Descarga -> [SourceTree](https://www.sourcetreeapp.com)
 
 1. Descargar el archivo -> [DataBaseConexion](https://drive.google.com/file/d/1EwspWX4sz7IIwYBspVnpH2K34is-weyJ/view)
 2. Importar el archivo descargado en KeyPass.
-3. Ingresar la contraseña fabrica2023
+3. Ingresar la contraseña (Preguntar por slack)
 
 
 ### Configuracion de la VPN
