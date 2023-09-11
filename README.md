@@ -65,26 +65,26 @@ Link de Descarga -> [SourceTree](https://www.sourcetreeapp.com)
 3. Ingresar el correo y la contraseña que aparece en el KeyPass para la VPN.
 4. En caso de que no se conecte tener en cuenta la zona horaria del sistema.
    
-### Configuracion de la base de datos (Sql Server Management Studio]
+### Configuracion de la base de datos (Sql Server Management Studio)
 
+1. Crear conexion
+   - Host-> ***sql-eastus2-001.privatelink.database.windows.net***
+   - UserName -> ***Esta en el KeyPass.***
+   - Password -> ***Esta en el KeyPass.***
+ 
+2. En el apartado de options.
+   - En Network Protocol marcarlo como TCP/IP.
+   - Marcar la opcion Trust server certificate.
+       
+4. Probar la conexion.
+
+### Configuracion de la base de datos (DBeaver)
 1. Crear conexion
    - Host-> ***sql-eastus2-001.privatelink.database.windows.net***
    - DataBaseName -> ***sql-portalbrilla-dev-promigas***
    - UserName -> ***Esta en el KeyPass.***
    - Password -> ***Esta en el KeyPass.***
-  
-2. Descargar el **Driver de SQL Server** si no lo tiene (Esto lo hara automaticamente DBeaver).
-3. Probar la conexion.
-
-### Configuracion de la base de datos (DBeaver)
-1. Crear conexion
-   - Host-> ***sql-eastus2-001.privatelink.database.windows.net***
-   - UserName -> ***Esta en el KeyPass.***
-   - Password -> ***Esta en el KeyPass.***
-
-2. En el aparatado de ocpiones
-   - Poner protocolo TCP/IP en Network protocol
-   - Habilitar la opcion Trust server certificate 
+     
 4. Descargar el **Driver de SQL Server** si no lo tiene (Esto lo hara automaticamente DBeaver).
 5. Probar la conexion.
 
