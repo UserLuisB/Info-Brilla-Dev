@@ -77,3 +77,23 @@ Link de Descarga -> [SourceTree](https://www.sourcetreeapp.com)
   
 2. Descargar el **Driver de SQL Server** si no lo tiene (Esto lo hara automaticamente DBeaver).
 3. Probar la conexion.
+
+### Configuracion del Repositorio
+ 1. Crear una carpeta en documentos con el nombre brilla.
+ 2. Dentro de la carpeta brilla crear una nueva carpeta con el nombre backend.
+
+ 1. Ingresar a [EnlaceCSCa](https://dev.azure.com/EnlaceCSC/)
+ 2. Ingresar correo y contraseña que aprece en el KeyPass.
+ 3. Elegir el proyecto franquiciaBrilla.  
+ 4. Ingresar al apartado de Repos.
+ 5. buscar la rama back-web-portal
+ 6. Dar click en clonar y copiar url.
+ 7. Dar click en generate git credencial.
+
+ 1. Abrir SourceTree . 
+ 2. Ir al apartado para clonar repositorios remotos.
+ 3. Pegar la url copiada anteriormente.
+ 4. En caso de pedir credenciales poner las generadas anteriormente.
+ 5. Dar en el boton clonar, verificar haciendo un pull.
+
+    
